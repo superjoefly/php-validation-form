@@ -1,0 +1,53 @@
+header {
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 5px;
+  color: teal;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+form p {
+  color: #6d6d6d;
+}
+
+/*Error class for form errors*/
+.error {
+   color: red;
+}
+
+.form-container {
+  width: 500px;
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  margin: 10px 0 10px 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+.gender-box {
+  margin-bottom: 10px;
+}
